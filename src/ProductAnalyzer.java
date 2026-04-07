@@ -11,21 +11,21 @@ class Product {
 		this.price = price;
 		this.category = category;
 	}
-	// Хэрэгжүүл: getters, toString
+	
 }
 
 public class ProductAnalyzer {
 	public static Map<String, List<Product>> analyze(List<Product> products) {
-		// Хэрэгжүүл: stream ашиглан category-гаар бүлэглэ, 1000₮-с дээш, price-аар
-		// эрэмбэл
-		return null; // Оруул
+
+		
+		return null; 
 	}
 
 	public static void main(String[] args) {
 		List<Product> items = Arrays.asList(
-				new Product("Гутал", 1500, "Хувцас"),
-				new Product("Тоглоом", 800, "Тоглоом"),
-				new Product("Цамц", 1200, "Хувцас"));
-		// Хэрэгжүүл: analyze дуудаж, хэвлэ
+				new Product("Gutal", 1500, "Huvtsas"),
+				new Product("Togloom", 800, "Togloom"),
+				new Product("Tsamts", 1200, "Huvtsas"));
+		
 	}
 }
